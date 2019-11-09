@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ### 2. Library projects
-#### 1. your rootDir build.gradle
+#### 1. Your rootDir build.gradle
 * To use ButterKnife in a library, add the plugin to your buildscript:
 ```java
 buildscript {
@@ -51,7 +51,7 @@ buildscript {
 ```
 
 #### 2. Your android library build.gradle
-* and then apply it in your module:
+* And then apply it in your module:
 ```gradle
 apply plugin: 'com.android.library'
 apply plugin: 'com.cmonbaby.butterknife.plugin' // add plugin (must be android library)
