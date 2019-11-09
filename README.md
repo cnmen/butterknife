@@ -1,7 +1,7 @@
 ### Field and method binding for Android views which uses annotation processing to generate boilerplate code for you.
 #### If you don't know, please click here : [CmonBaby](https://www.cmonbaby.com)
 
-## Arouter ![Build Status](https://travis-ci.org/greenrobot/EventBus.svg?branch=master)
+## ButterKnife ![Build Status](https://travis-ci.org/greenrobot/EventBus.svg?branch=master)
 
 * Eliminate findViewById calls by using @BindView on fields
 * Eliminate anonymous inner-classes for listeners by annotating methods with @OnClick and others.
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ### 2. Library projects
-#### 1. your rootDir/build.gradle
+#### 1. your rootDir build.gradle
 * To use ButterKnife in a library, add the plugin to your buildscript:
 ```java
 buildscript {
