@@ -83,7 +83,7 @@ public class LibraryActivity extends AppCompatActivity {
 }
 ```
 
-## Add Arouter to your project
+## Add ButterKnife to your project
 <a href="https://www.cmonbaby.com">
 <img src="https://img.shields.io/bintray/v/cmonbaby/simon/butterknife_annotation?label=maven-central"></a>
 
@@ -116,4 +116,4 @@ Via Maven:
 ## License
 
 Copyright (C) 2013-2020 Markus Junginger, Simon (https://www.cmonbaby.com)  
-Arouter binaries and source code can be used according to the [Apache License, Version 2.0](LICENSE).
+ButterKnife binaries and source code can be used according to the [Apache License, Version 2.0](LICENSE).
