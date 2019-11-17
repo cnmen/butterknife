@@ -73,7 +73,7 @@ public class LibraryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_library);
 
-        ButterKnife.bind(this); // just support one id event
+        ButterKnife.bind(this); // just support activity current
     }
 
     @OnClick(id = R2.id.btn) // just support one id event
