@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 ### 2. Library projects
 #### 1. Your rootDir build.gradle
 * To use ButterKnife in a library, add the plugin to your buildscript:
-```java
+```gradle
 buildscript {
     repositories {
         google()
