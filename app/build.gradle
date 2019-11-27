@@ -29,7 +29,7 @@ dependencies {
 
     implementation project(':library')
 
-    implementation 'com.cmonbaby.butterknife.annotation:butterknife_annotation:2.0.0'
-    implementation 'com.cmonbaby.butterknife.core:butterknife_core:2.0.0'
-    annotationProcessor 'com.cmonbaby.butterknife.compiler:butterknife_compiler:2.0.0'
+    implementation 'com.cmonbaby.butterknife.annotation:butterknife_annotation:2.1.0'
+    implementation 'com.cmonbaby.butterknife.core:butterknife_core:2.1.0'
+    annotationProcessor 'com.cmonbaby.butterknife.compiler:butterknife_compiler:2.1.0'
 }

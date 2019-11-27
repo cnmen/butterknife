@@ -13,10 +13,10 @@ import com.cmonbaby.butterknife.core.ButterKnife;
 
 public class LibraryActivity extends AppCompatActivity {
 
-    @BindView(id = R2.id.tv) // First kind
+    @BindView(id = R2.id.tv) // Use R2 Injection
     TextView tv; // Don't set private or static for properties
 
-    @BindView(id = "iv") // Second kind
+    @BindView(id = R2.id.iv)
     ImageView iv;
 
     @Override
