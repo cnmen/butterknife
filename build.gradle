@@ -7,7 +7,7 @@ buildscript {
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath 'com.android.tools.build:gradle:3.5.3'
 
         // add plugin path
         classpath 'com.cmonbaby.butterknife.plugin:butterknife_plugin:2.1.0'
