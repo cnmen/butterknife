@@ -45,7 +45,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.5.2'
 
         // add plugin path
-        classpath 'com.cmonbaby.butterknife.plugin:butterknife_plugin:2.1.0'
+        classpath 'com.cmonbaby.butterknife.plugin:butterknife_plugin:2.1.2'
     }
 }
 ```
@@ -89,9 +89,9 @@ public class LibraryActivity extends AppCompatActivity {
 
 Via Gradle:
 ```gradle
-implementation 'com.cmonbaby.butterknife.annotation:butterknife_annotation:2.1.0'
-implementation 'com.cmonbaby.butterknife.core:butterknife_core:2.1.0'
-annotationProcessor 'com.cmonbaby.butterknife.compiler:butterknife_compiler:2.1.0'
+implementation 'com.cmonbaby.butterknife.annotation:butterknife_annotation:2.1.2'
+implementation 'com.cmonbaby.butterknife.core:butterknife_core:2.1.2'
+annotationProcessor 'com.cmonbaby.butterknife.compiler:butterknife_compiler:2.1.2'
 ```
 
 Via Maven:
@@ -99,17 +99,17 @@ Via Maven:
 <dependency>
     <groupId>com.cmonbaby.butterknife.annotation</groupId>
     <artifactId>butterknife_annotation</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.butterknife.compiler</groupId>
     <artifactId>butterknife_compiler</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.butterknife.core</groupId>
     <artifactId>butterknife_core</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.2</version>
 </dependency>
 ```
 
